@@ -44,11 +44,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0% 2% 0% 2%;
+  padding: 0% 2% 0% 2%;
   border-style: solid;
   border-color: #7279f7;
   border-width: 1px;
-  margin: 0% 2% 0% 2%;
-  padding: 0% 5% 0% 5%;
   text-align: justify;
 }
 .mainContainer .coverPage h1 {
@@ -60,7 +60,7 @@ body {
 }
 .mainContainer .coverPage p {
   color: #fff;
-  padding: 0% 10% 0% 10%;
+  padding: 0% 2% 0% 3%;
   font-size: 18px;
 }
 .mainContainer .coverPage #colorH {
@@ -105,8 +105,11 @@ body {
   .Meniu a {
     font-size: 73%;
   }
+  .mainContainer .coverPage {
+    margin: 0% 1% 0% 1%;
+  }
   .mainContainer .coverPage h1 {
-    padding: 2% 2% 0% 0%;
+    padding: 2% 0% 0% 0%;
     font-size: 20px;
   }
   .mainContainer .coverPage p {
@@ -124,7 +127,7 @@ body {
     margin: 0% 1% 0% 1%;
   }
   .bigBlockRow .leftBlock {
-    padding: 0% 2% 2% 2%;
+    padding: 0% 2% 0% 3%;
   }
   .bigBlockRow .leftBlock h1 {
     font-size: 20px;
