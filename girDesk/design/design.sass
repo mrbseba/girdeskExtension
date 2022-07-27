@@ -1,0 +1,56 @@
+//sass variables
+$varDivBackGrColor: #7279f7
+$varTextColor: #fff
+$varBorderColor: #7279f7
+
+html
+    background-color: #1f1f1f
+
+
+body
+    font-family: 'Scope One', serif
+    margin: 0
+//hide the scroll bar - but the scroll still works
+::-webkit-scrollbar 
+    display: none
+
+//the pop upgrdient
+.mainContainer
+    display: flex
+    flex-direction: column
+    
+    
+    .checkGrad
+        display: flex
+        flex-direction: row
+        justify-content: right
+
+        margin: 0% 2% 0% 2%
+
+        input[type="button"]
+            padding: 0.5% 1% 0.5% 1% 
+            margin: 0% 1% 2% 0%
+            font-size: 16px
+            font-weight: bold
+        input[type="color"]
+            width: 2.5%
+            height: 2.10vw
+            margin: 0% 0% 0% 0%
+    
+    .generateColor
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        padding: 1.2% 1.7% 1.2% 1.7% 
+        margin: 0% 2% 2% 2%
+
+        gap: 3%
+
+        border-style: solid
+        border-color: $varBorderColor
+        border-width: 1px
+        .svgSetting
+            padding: 0.5% 0.5% 0.2% 0.5%
+            border-style: solid
+            border-color: $varBorderColor
+            border-width: 1px
