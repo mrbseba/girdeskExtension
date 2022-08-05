@@ -1,0 +1,108 @@
+//sass variables
+$varDivBackGrColor: #7279f7
+$varTextColor: #fff
+$varBorderColor: #7279f7
+$varLetterColor: #7279f7
+
+html
+    background-color: #1f1f1f
+
+
+body
+    font-family: 'Scope One', serif
+    margin: 0
+//hide the scroll bar - but the scroll still works
+::-webkit-scrollbar 
+    display: none
+
+.mainContainer
+    display: flex
+    flex-direction: column
+        //out styling
+    margin: 0% 10% 0% 10%
+    color: $varTextColor
+    .subDescriptionContainer
+        // background-color: grey
+    .subContentContainer
+        display: flex
+        flex-direction: column
+        //out styling
+        margin: 0% 0% 0% 0%
+        .colorLetter
+            color: $varLetterColor
+        .mainToolContainer
+            display: flex
+            flex-direction: row
+            margin-bottom: 2%
+
+            .toolContainer
+                display: flex
+                flex-direction: column
+
+                width: 80%
+                
+                // border-style: solid
+                // border-width: 1px
+                // border-color: #fff
+                border-radius: 25px
+
+                margin: 0% 2% 0% 2% 
+                margin-bottom: 2%
+                box-shadow: -5px -5px 15px rgba(114, 121, 247, 0.25), 5px 5px 15px #000000
+                
+                padding: 2% 2% 1% 2%
+                
+                p
+                    width: 9 0%
+                .logoContainer
+                    display: flex
+                    flex-direction: row 
+                    gap: 5%
+@media only screen and (max-width: 825px)
+    .mainContainer
+        display: flex
+        flex-direction: column
+        align-content: center
+
+        margin: 0% 3% 0% 5%
+        color: $varTextColor
+        .subDescriptionContainer
+            // background-color: grey
+        .subContentContainer
+            display: flex
+            flex-direction: column
+
+            margin: 0% 0% 0% 0%
+            .colorLetter
+                color: $varLetterColor
+            .mainToolContainer
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                .toolContainer
+                    display: flex
+                    flex-direction: column
+
+                    width: 100%
+                    margin: 0% 1% 8% 1% 
+                    // border-style: solid
+                    // border-width: 1px
+                    // border-color: #fff
+                    border-radius: 25px
+
+                    box-shadow: -5px -5px 15px rgba(114, 121, 247, 0.25), 5px 5px 15px #000000
+                    
+                    padding: 2% 4% 2% 3%
+                    h2
+                        font-size: 18px
+
+                    p
+                        width: 100%
+                        font-size: 13px
+                    .logoContainer
+                        display: flex
+                        flex-direction: row 
+                        align-items: center
+                        gap: 0%
+                        svg
+                            height: 30px
