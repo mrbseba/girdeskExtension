@@ -1,0 +1,82 @@
+html {
+  background-color: #1f1f1f;
+}
+
+body {
+  font-family: "Scope One", serif;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.mainContainer .checkGrad {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: 0% 2% 0% 2%;
+}
+.mainContainer .checkGrad input[type=button] {
+  padding: 0.5% 1% 0.5% 1%;
+  margin: 0% 1% 2% 0%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.mainContainer .checkGrad input[type=color] {
+  width: 40px;
+  height: 30px;
+  margin: 0% 0% 0% 0%;
+}
+.mainContainer .generateColor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.2% 1.7% 1.2% 1.7%;
+  margin: 0% 2% 2% 2%;
+  gap: 3%;
+  border-style: solid;
+  border-color: #7279f7;
+  border-width: 1px;
+}
+.mainContainer .generateColor .svgSetting {
+  padding: 0.5% 0.5% 0.2% 0.5%;
+  border-style: solid;
+  border-color: #7279f7;
+  border-width: 1px;
+}
+
+@media only screen and (max-width: 825px) {
+  .mainContainer .checkGrad input[type=button] {
+    padding: 1% 1% 1% 1%;
+    margin: 0% 1% 2% 0%;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .mainContainer .checkGrad input[type=color] {
+    width: 30px;
+    height: 25px;
+    margin: 0% 0% 0% 0%;
+  }
+  .mainContainer .generateColor {
+    margin: 2%;
+    padding: 2%;
+  }
+  .mainContainer .generateColor .svgSetting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-color: #7279f7;
+    border-width: 1px;
+  }
+  .mainContainer .generateColor .svgSetting svg {
+    width: 90%;
+  }
+}/*# sourceMappingURL=design.css.map */

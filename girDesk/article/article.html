@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- the meta information -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title  -->
+        <title>GirDesk</title>
+        <link rel="shortcut icon" href="/svg/logo.svg" type="image/x-icon">
+        <!-- style for navbar -->
+        <link rel="stylesheet" href="/reuse/style.css">
+        
+        <!-- style css -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Font style -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    </head>
+    <!-- the main content of the page -->
+    <body>
+        <!-- The navigation bar -->
+        <div class="Meniu"></div>
+        <!-- main container of content -->
+        <div class="mainContainer">
+
+            <!-- the sub first div -->
+            
+            <div class="subMainDescription">
+                <h1>the working page</h1>
+                <p>Articles are more in-depth explanations about concepts covered in Codecademy courses. Here you'll learn more about workflows that developers use every day, and take your coding skills to the next level.</p>
+            </div>
+            
+
+            <!-- the sub second div -->
+            <div class="subMainArticles">
+
+                <!-- first window -->
+                <div class="articleAnimation">
+                    <div class="svg">
+                        <object data="/svg/Development.svg"></object>
+                    </div>
+                    <div>
+                        <a href="/article/artTemplate/studentArt.html"><h3 class="hah">The Story of the Computer Science Student at Technical University of Moldova &#128279;</h3></a>
+                        <p>Let me introduce myself, I did my bachelor's in computer science this year in July. In the past three years, this was very colorful and… <br> <small>8 min read</small></p>
+                    </div>
+                </div>
+
+                <!-- second window -->
+                <div class="articleAnimation">
+                    <div class="svg">
+                        <object data="/svg/Economi.svg"></object>
+                    </div>
+                    <div>
+                        <a href="/article/artTemplate/studentArt.html"><h3 class="hah">The Story of the Computer Science Student at Technical University of Moldova &#128279;</h3></a>
+                        <p>Let me introduce myself, I did my bachelor's in computer science this year in July. In the past three years, this was very colorful and… <br> <small>8 min read</small></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="subMainArticles">
+
+                 <!-- third windoww -->
+                <div class="articleAnimation">
+                    <div class="svg">
+                        <object data=" /svg/Management.svg"></object>
+                    </div>
+                    <div>
+                        <a href="/article/artTemplate/studentArt.html"><h3 class="hah">The Story of the Computer Science Student at Technical University of Moldova &#128279;</h3></a>
+                        <p>Let me introduce myself, I did my bachelor's in computer science this year in July. In the past three years, this was very colorful and… <br> <small>8 min read</small></p>
+                    </div>
+                </div>
+
+                <!-- fourth window -->
+                <div class="articleAnimation" id="lastOne">
+                    <div class="svg">
+                        <object data="/svg/Medicine.svg"></object>
+                    </div>
+                    <div>
+                        <a href="/article/artTemplate/studentArt.html"><h3 class="hah">The Story of the Computer Science Student at Technical University of Moldova &#128279;</h3></a>
+                        <p>Let me introduce myself, I did my bachelor's in computer science this year in July. In the past three years, this was very colorful and… <br> <small>8 min read</small></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+    <!-- the bottom part of the page -->
+    <footer>
+        <!-- footer of the page  -->
+        <div class="contactPage"></div>
+        
+        <!-- JQuery for reuse the html code -->
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+        <!-- Load the external page -->
+        <script>
+             //function for load the footer part
+            $(function(){
+                $('.contactPage').load("/reuse/reuseContact.html");
+                
+            })
+            // Function for load the navbar
+            $(function(){
+                $('.Meniu').load("/reuse/navBar.html");
+            })
+        </script>
+
+        <!-- the link to the script page -->
+        <script src="index.js"></script>
+    </footer>
+</html>

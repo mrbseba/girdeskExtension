@@ -1,0 +1,40 @@
+# to enable pres Ctrl + Shift + P
+# https://swapi.dev/api/people/1/
+# https://swapi.dev/api/people/2/
+# https://swapi.dev/api/planets/1/
+
+
+###
+
+#if I select only one URL we can check API for every URL - in such way we can have multiple request
+# date: sky walker
+https://swapi.dev/api/people/1/
+
+https://swapi.dev/api/people/2/
+
+https://swapi.dev/api/people/3/
+
+https://swapi.dev/api/people/4/
+
+https://swapi.dev/api/people/5/
+
+# planet: sky walker
+https://swapi.dev/api/planets/1/
+
+https://swapi.dev/api/planets/2/
+
+https://swapi.dev/api/planets/3/
+
+https://swapi.dev/api/planets/4/
+
+
+# test the API for my web app
+https://eusebiu-barimb.web.app/
+
+# some more text
+https://www.google.com/
+
+https://undraw.co/
+
+# check my FB
+https://www.facebook.com/profile.php?id=100009491955933
